@@ -1,0 +1,20 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    background-image:url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.memory_game{
+    width: 60rem;
+    height: 60rem;
+    background-color: aqua;
+}

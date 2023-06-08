@@ -1,0 +1,13 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Farcade-background&psig=AOvVaw0hnFhOaLsZf4I0pt4qf2IK&ust=1686151305929000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPj-1J75rv8CFQAAAAAdAAAAABAd");
+}

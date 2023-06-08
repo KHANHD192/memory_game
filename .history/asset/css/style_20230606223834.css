@@ -1,0 +1,41 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    background-image:url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.memory_game{
+    width: 62rem;
+    height: 62rem;
+    background-color: aqua;
+}
+header{
+     padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    font-style: italic;
+    background-image: linear-gradient(to right,#30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.grid {
+    display: grid;
+    width: 100%;
+    height: calc(100% - 80px);
+    grid-template-columns: repeat(1fa,4);
+    grid-template-rows: repeat(1fa,2);
+    gap: 2px;
+    background-color: #330867;
+}

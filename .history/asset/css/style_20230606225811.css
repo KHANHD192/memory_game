@@ -1,0 +1,48 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    background-image:url("../image/natalia-rajs-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.memory_game{
+    width: 62rem;
+    height: 62rem;
+}
+header{
+     padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    font-style: italic;
+    background-image: linear-gradient(to right,#30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.number_of_turns{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom : 5px;
+    padding-left: calc((100% - (100% - 80px))/2) ;
+}
+.grid {
+    display: grid;
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    border-radius: 12px;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    gap: 4px;
+    background-color: #330867;
+    margin : 0 auto;
+}
